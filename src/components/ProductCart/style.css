@@ -1,0 +1,32 @@
+.products_information{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+  }
+  .products_information >div{
+  margin-bottom: 2rem;
+    text-align: center;
+  }
+  img{
+  border-radius: 5rem;
+    width: 18rem;
+    height: 18rem;
+  }
+  
+  .buy{
+    display: flex; 
+    justify-content: space-around;
+  }
+  
+  
+  button{
+    background-color: #f0c040;
+    width: 6rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
